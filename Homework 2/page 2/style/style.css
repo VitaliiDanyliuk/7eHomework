@@ -1,0 +1,159 @@
+body {
+font-family: 'Inika', serif;
+font-weight: 700;
+}
+
+.h1 {
+margin: 72px 0 58px 0;
+font-size: 40px;
+}
+
+.line {
+border-bottom: 5px solid #3E45E8;
+width: 402px;
+margin-top: 25px;
+}
+
+.h2 {
+margin: 74px 0 62px 0;
+font-size: 40px;
+text-align: center;
+}
+
+.line2 {
+border-bottom: 5px solid #3E45E8;
+width: 402px;
+margin: 0 auto;
+}
+
+.header {
+font-family: 'M PLUS 1';
+max-height: 110px;
+min-height: 50px;
+text-align: center;
+color: #3E45E8;
+font-size: 48px;
+font-weight: 400;
+padding: 25px 0;
+}
+
+.header-span {
+    color: #E8C23E;
+}
+
+.banner {
+height: 803px;
+background-image: url("../img/image1.png");
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+.content {
+box-sizing: border-box;
+width: 75%;
+height: 272px;
+font-size: 48px;
+color: #FFFFFF;
+background-image: url("../img/flag.png");
+background-repeat: no-repeat;
+padding-left: 2%;
+}
+
+.main {
+padding: 0 80px;
+}
+
+.card {
+border: 1px solid black;
+width: 29%;
+color: #1E8DF2;
+display: inline-block;
+vertical-align: top;
+overflow: hidden;
+border-radius: 30px;
+box-shadow: 0px 4px 57px 3px rgba(0, 0, 0, 0.25);
+}
+
+.card-image {
+width: 100%;
+}
+
+.card-margin {
+    margin: 0 4.5%;
+}
+
+.card-title {
+font-size: 24px;
+padding: 10px;
+box-sizing: border-box;
+}
+
+.card-subtitle {
+font-weight: 400;
+font-size: 20px;
+color: #E8C23E;
+padding: 10px;
+box-sizing: border-box;
+}
+
+.image-Ukr {
+width: 56%;
+padding: 0 17% 3% 15%;
+}
+
+.map-Ukr {
+width: 100%;
+
+}
+
+.box {
+margin: 0 31% 1.45% 24%;
+}
+
+.link {
+width: 591px;
+height: 121px;
+background-color: #2A61F0;
+font-size: 64px;
+color: #FFFFFF;
+display: inline-block;
+text-decoration: none;
+margin: 10px 92px;
+text-align: center;
+}
+
+.footer {
+font-family: 'Marcellus SC';
+height: 320px;
+background-color: #2F4A4B;
+text-align: center;
+font-weight: 400;
+font-size: 36px;
+
+}
+
+.footer-text {
+font-family: 'M PLUS 1';
+font-size: 48px;
+color: #3E45E8;
+margin-bottom: 31px;
+}
+
+.footer-span {
+color: #DFE31E;
+}
+
+.contact-mail, 
+.contact-phone {
+margin-bottom: 21px;
+}
+
+.contacts {
+color: #A89D9D;
+}
+
+.footer-link {
+display: inline-block;
+}

@@ -1,0 +1,170 @@
+
+body {
+background-color: #E5E5E5;
+
+}
+.line {
+display: inline-block;
+}
+
+.box {
+display: inline-block;
+margin: 0 50px 50px 50px;
+}
+
+.headin-text {
+color: grey;
+}
+
+
+.banner,
+.banner2,
+.banner3,
+.banner4,
+.banner5,
+.banner6 {
+width: 512px;
+height: 512px;
+background: #2137FC;
+background-repeat: no-repeat;
+background-size: cover;
+display: inline-block;
+box-sizing: border-box;
+
+}
+
+.content,
+.content2,
+.content4,
+.content5,
+.content6,
+.content7,
+.content8,
+.content9 {
+background-image: url("../img/Glyph.png");
+background-repeat: no-repeat;
+width: 400px;
+height: 227px;
+box-sizing: border-box;
+position: absolute;
+top: 17%;
+left: 7%;
+}
+
+.color-blue,
+.color-blue2 {
+height: 50%;
+background-color: #2137FC;
+
+}
+
+.color-yellow,
+.color-yellow2 {
+height: 50%;
+background-color: #FFCE22;
+}
+
+.banner2,
+.banner3,
+.banner5 {
+background-color: #FFFFFF;
+position: relative;
+padding: 34px;
+box-sizing: border-box;
+}
+
+.content2 {
+top: 48%;
+left: 12%;
+
+}
+
+.color-blue2 {
+border-radius: 300px 300px 0 0;
+}
+
+.color-yellow2 {
+border-radius: 0 0 300px 300px;
+}
+
+.banner4 {
+box-sizing: border-box;
+position: relative;
+}
+
+.content4 {
+background-image: url("../img/Group.png");
+width: 341px;
+height: 393px;
+top: 12%;
+left: 0%;
+position: absolute;
+
+}
+.content5 {
+background-image: url("../img/Group1.png");
+width: 278px;
+height: 320px;
+top: 20%;
+left: 22%;
+}
+
+.banner6 {
+background-color: #FFCE22;
+position: relative;
+}
+
+.content6 {
+background-image: url("../img/Plane.png");
+width: 339px;
+height: 385px;
+top: 25%;
+left: 34%;
+position: absolute;
+}
+
+.content7 {
+background-image: url("../img/Plane1.png");
+top: 24%;
+left: 21%;
+}
+
+.content8,
+.content9 {
+background-image: url("../img/Vector.png");
+width: 310px;
+height: 182px;
+top: 30%;
+left: 20%;
+}
+
+.color-black {
+background-color: #000;
+height: 100%;
+}
+
+.content10,
+.content11,
+.content12 {
+background-image: url("../img/Flag.png");
+width: 80px;
+height: 60px;
+position: absolute;
+border-radius: 6px;
+top: 4%;
+left: 5%;
+}
+
+.content11 {
+top: 4%;
+left: 80%;
+}
+
+.content12 {
+top: 70%;
+left: 43%;
+}
+
+.box-end {
+    margin-left: 65%;
+}
