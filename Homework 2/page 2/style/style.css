@@ -1,6 +1,7 @@
 body {
 font-family: 'Inika', serif;
 font-weight: 700;
+margin: 0;
 }
 
 .h1 {
@@ -46,19 +47,23 @@ height: 803px;
 background-image: url("../img/image1.png");
 background-repeat: no-repeat;
 background-size: cover;
+padding-top: 15%;
+box-sizing: border-box;
+padding-left: 80px;
 
 
 }
 
 .content {
 box-sizing: border-box;
-width: 75%;
+width: 60%;
 height: 272px;
 font-size: 48px;
 color: #FFFFFF;
 background-image: url("../img/flag.png");
 background-repeat: no-repeat;
-padding-left: 2%;
+padding-left: 3%;
+
 }
 
 .main {
@@ -100,16 +105,19 @@ box-sizing: border-box;
 
 .image-Ukr {
 width: 56%;
-padding: 0 17% 3% 15%;
+padding: 0 20% 3% 20%;
+margin: 0;
+
 }
 
 .map-Ukr {
 width: 100%;
-
+box-sizing: border-box;
 }
 
 .box {
-margin: 0 31% 1.45% 24%;
+margin: 0 30% 1.5% 30%;
+
 }
 
 .link {
