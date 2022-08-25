@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html{
+font-size: 10px;
+}
+
+body {
+margin: 0;
+font-family: 'PT Sans', sans-serif;
+font-weight: 400;
+background-color: #DCDCDC;
+}
+
+.header{
+background-color: #202846;
+min-height: 9rem;
+width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+position: fixed;
+z-index: 1;
+margin-bottom: auto;
+}
+.novisible{
+height: 9rem;
+visibility: hidden;
+}
+.header-logo{
+
+}
+
+.nav-main{
+width: 65%;
+display: flex;
+justify-content: space-evenly;
+}
+
+.nav-main a{
+text-align: center;
+color: #FFFFFF;
+font-weight: 700;
+font-size: 2.4rem;
+text-decoration: none;
+}
+.header-title:hover {
+color: #AEAEE2;
+}
+
+
+.h-first{
+width: 100%;
+height: 14rem;
+background-color: #C6C6DC;
+font-style: italic;
+font-size: 4.8rem;
+color: #202846;
+display: flex;
+align-items: center;
+padding-left: 11%;
+box-sizing: border-box;
+}
+
+.choice{
+height: 7.3rem;
+background-color: #E8E8E8;
+font-size: 2.8rem;
+display: flex;
+align-items: center;
+color: rgba(0, 0, 0, 0.61);
+justify-content: center;
+}
+
+.triangle{
+position: absolute;
+right: 27rem;
+top: 26rem;
+}
+
+.build,
+.information {
+width: 80%;
+margin: 0 auto;
+}
+
+.card{
+height: 300px;
+background-color: #BDBDC6;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+position: relative;
+margin-bottom: 3.6rem;
+}
+
+.card:hover{
+background-color: #AEAEE2;
+box-shadow: 5px 5px 30px rgba(0, 0, 255, 0.25);
+transition: all 0.5s
+}
+.card:hover>.card-content>.card-star{
+fill: #FFFF00;
+transition: all 0.5s
+}
+.card:hover>.card-content>.card-btn{
+background-color: #EF075B;
+transition: all 0.5s
+}
+
+.card-img{
+width: 35%;
+height: 80%;
+overflow: hidden;
+}
+
+.card-img img{
+height: 100%;
+
+}
+
+.card-content{
+width: 50%;
+height: 80%;
+}
+
+.card-content-title{
+font-style: italic;
+font-weight: 700;
+border-bottom: 3px solid white;
+font-size: 3.6rem;
+margin-bottom: 1rem;
+}
+
+.card-content-description{
+font-style: normal;
+font-size: 2.2rem;
+text-align: center;
+background-color: #D7D7DD;
+padding: 2.2rem;
+}
+
+.card-star, 
+.card-btn{
+position: absolute;
+}
+
+.card-star{
+fill: white;
+right: 1rem;
+top: 1rem;
+}
+
+.card-btn {
+right: -4rem;
+bottom: 0;
+width: 200px;
+padding: 1rem 0;
+background-color: #202846;
+color: #FFFFFF;
+text-decoration: none;
+font-size: 2.4rem;
+text-align: center;
+border-radius: 50px;
+}
+.arrow{
+position: fixed;
+right: 5.5rem;
+top: 100rem;
+}
+
+.title{
+height: 14rem;
+background-color: #C6C6DC;
+font-style: italic;
+font-size: 4.8rem;
+color: #202846;
+display: flex;
+align-items: center;
+padding-left: 11%;
+box-sizing: border-box;
+}
+.information{
+display: flex;
+justify-content: center;
+background-color: #BDBDC6;
+}
+.account{
+height: 50rem;
+align-items: center;
+width: 70%;
+display: flex;
+justify-content: space-around;
+}
+
+.account-avatar{
+height: 30%;
+}
+.account-change,
+.account-settings{
+background-color: #484A54;
+color: #FFFFFF;
+text-align: center;
+font-size: 2.4rem;
+border-radius: 35px;
+height: 20%;
+}
+
+.account-change{
+margin: 3.8rem 0 2.2rem 0;
+}
+
+.account-change:hover{
+background-color: #69749B;
+}
+
+.account-content {
+font-style: italic;
+font-weight: 700;
+font-size: 3.6rem;
+align-items: center;
+color: #353C57;
+border-bottom: 3px solid white;
+}
+
+.exit{
+display: flex;
+background-color: #202846;
+font-size: 2.7rem;
+align-items: center;
+color: #FFFFFF;
+width: 21.2rem;
+height: 6.2rem;
+position: relative;
+left: 45%;
+justify-content: center;
+border-radius: 30px;
+margin: 4rem 0 22rem 0;
+}
+
+.account-content span{
+font-style: italic;
+font-weight: 400;
+}
+
+.account-content a{
+text-decoration: none;
+font-style: italic;
+font-weight: 400;
+color: #353C57;
+}
+.contacts-title{
+font-size: 3.2rem; 
+border-bottom: 3px solid #202846;
+}
+.contacts{
+font-size: 3.0rem;
+justify-content: space-evenly;
+}
+
+.contacts-first{
+display: flex;
+justify-content: space-around;
+}
+
+
+.contacts-first a[href]{
+color: #000000;
+text-decoration: none;
+}
+
+.contacts-second{
+display: flex;
+justify-content: space-around;   
+}
+
+.footer{
+background-color: #202846;
+height: 9rem;
+font-style: italic;
+font-size: 3.6rem;
+display: flex;
+align-items: center;
+color: #EEECF1;
+padding-left: 6rem;
+}
