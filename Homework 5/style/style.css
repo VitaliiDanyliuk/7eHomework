@@ -10,7 +10,6 @@ font-weight: 600;
 }
 .div{
 min-width: 800px;
-max-width: 1400px;
 margin: 0 auto;
 background-color: #FFFFFF;
 display: flex;
@@ -266,8 +265,8 @@ background-size: cover;
 width: 4rem;
 height: 3.5rem;
 position: absolute;
-top: 394rem;
-left: 146rem;
+top: 398rem;
+left: 96rem;
 } 
 
 .section-five-box-img2{
@@ -277,7 +276,7 @@ background-size: cover;
 width: 4rem;
 height: 3.5rem;
 position: absolute;
-top: 424rem;
+top: 416rem;
 left: 159rem;
 }
 
