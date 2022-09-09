@@ -2,6 +2,7 @@ html{
 font-size: 10px;
 }
 
+
 body {
 margin: 0 auto;
 font-family: 'Space Grotesk', sans-serif;
@@ -16,8 +17,9 @@ background: linear-gradient(112.23deg,
 display: flex;
 justify-content: center;
 align-items: center;
-height: 95.9rem;
+height: 100vh;
 }
+
 .blok{
 width: 67%;
 height: 69%;
@@ -75,6 +77,7 @@ color: #CCCCCC;
 border: 1px solid #CCCCCC;
 box-shadow: 0px 2px 2px 2px rgba(204, 204, 204, 0.1);
 border-radius: 4px;
+padding: 2% 0;
 }
 
 .text{
@@ -83,7 +86,7 @@ color: #A8A8A8;
 }
 
 .down{
-margin-bottom: 9.4rem;
+margin-bottom: 20%;
 }
 
 
