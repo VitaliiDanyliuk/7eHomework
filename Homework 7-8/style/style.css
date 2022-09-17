@@ -72,35 +72,6 @@ header img{
 }
 
 
-/* .header{
-    display: flex;
-    width: 100%;
-}
-.nav{
-    display: flex;
-    background-color: var(--main-color);
-    justify-content: flex-end;
-    align-items: center;
-    width: 100%;
-    box-sizing: border-box;
-    overflow: hidden;
-    
-}
-.nav-text a {
-text-decoration: none;
-color: #FFFCFC;
- }
-
-.nav-text{
-font-size: 3.6rem;
-
-margin-right: 2%;
-box-sizing: border-box;
-max-width: 100%;
-overflow: hidden;
-} */
-
-/* gallery */
 
 .gallery{
 display: flex;
@@ -611,12 +582,9 @@ justify-content: space-between;
     }
 }
 
-
-
-
-    .services{
-    display: flex;
-    flex-direction: column-reverse;
+.services{
+display: flex;
+flex-direction: column-reverse;
  }
 
 .rigth{
@@ -628,12 +596,12 @@ justify-content: space-between;
 }
 
 .left > div>img{
-    max-height: 75%;
-    max-width: 75%;
+    max-height: 50%;
+    max-width: 50%;
 }
 
 .left p {
-font-size: 2.4rem;
+font-size: 1.4rem;
  
 }
 
@@ -648,6 +616,20 @@ h1 {
 .team-main:hover>div {
     filter: none;
 }
+
+.team-main>div {
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+.team-main>div>img {
+    max-width: 80%;
+ }
+
+  .name {
+      max-width: 80%;
+  }
+
 .contact-us-box-main{
     flex-direction: column-reverse;}
 .contact{
@@ -662,7 +644,17 @@ h1 {
 .contact{
     font-size: 2.0rem;
 }
+.contact-us-box-one{
+    max-width: 100%;
+}
+.contact,
+.contact-us-box-two{
+margin-bottom: 5%;
+}
 
+.contact-block-two-title {
+    font-size: 2.4rem;
+}
 }
 
 
@@ -738,16 +730,14 @@ h1 {
    }
 
 .left>div>img {
-    max-height: 75%;
-    max-width: 75%;
+    max-height: 50%;
+    max-width: 50%;
 }
 
 .left p {
-    font-size: 2.0rem;
+    font-size: 1.2rem;
 
 }
-
-
 
    .team-main{
     display: flex;
@@ -762,8 +752,18 @@ h1 {
 }
 
 .team-main>div {
-    width: 50%;
+width: 50%;
+margin-bottom: 5%;
 }
+
+.team-main>div>img {
+    max-width: 80%;
+ }
+
+ .name{
+    max-width: 80%;
+ }
+
 .team-main{
     align-items: center;
 }
@@ -777,7 +777,7 @@ h1 {
     order: 2;
 }
 .contact-us-header {
-    font-size: 2.4rem;
+    font-size: 3.6rem;
 }
 
 .contact {
@@ -785,8 +785,21 @@ h1 {
 }
 input,
 textarea {
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     
 
+}
+
+.contact-us-box-one {
+max-width: 100%;
+}
+
+.contact,
+.contact-us-box-two{
+margin-bottom: 5%;
+}
+
+.contact-block-two-title {
+    font-size: 2.4rem;
 }
 }
