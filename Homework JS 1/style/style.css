@@ -1,0 +1,33 @@
+header {
+    width: 800px;
+    height: 200px;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100px;
+    height: 400px;
+    border: 1px solid orange;
+    box-sizing: border-box;
+}
+
+
+section {
+    width: 700px;
+    height: 400px;
+    border: 1px solid orange;
+    box-sizing: border-box;
+}
+
+footer {
+    width: 800px;
+    height: 200px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+div{
+    display: flex;
+    box-sizing: border-box;
+}
