@@ -1,0 +1,42 @@
+:root {
+font-size: 10px;
+}
+
+.box{
+width:90%;
+margin:2% auto;
+border:2px solid black;
+background-color: rgb(102, 181, 102)
+}
+
+#number{
+padding: 5% 0 0 3vw;
+text-align:start;
+font-size: 1.6rem;
+font-weight: 600;
+color: black;
+}
+#mail{
+padding: 5% 0 0 3%;
+text-align:start;
+font-size: 2.2rem;
+color:rgb(24, 3, 100);
+}
+#name{
+padding: 5% 0 0 3%;
+text-align:start;
+font-size:2.4rem;
+color:rgb(85, 24, 18)
+}
+#coment{
+padding:3% 1%;
+text-align:center;
+font-size:3rem;
+font-style:italic;
+color: rgb(13, 21, 41);
+}
+
+#p{
+font-size: 4rem;
+color: rgb(47, 79, 162);
+}
