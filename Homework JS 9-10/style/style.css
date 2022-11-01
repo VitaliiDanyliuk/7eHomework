@@ -1,0 +1,63 @@
+ :root {
+    font-size: 10px;
+}
+
+.box {
+    width: 90%;
+    margin: 2% auto;
+    border: 2px solid black;
+    background-color: rgb(102, 181, 102)
+}
+
+.postId {
+    padding: 5% 0 0 3vw;
+    text-align: start;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: black;
+}
+
+.id {
+    padding: 5% 0 0 3vw;
+        text-align: start;
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: black;
+}
+
+.name {
+    padding: 5% 0 0 3%;
+    text-align: start;
+    font-size: 2.4rem;
+    color: rgb(85, 24, 18)
+}
+
+.email {
+    padding: 5% 0 0 3%;
+    text-align: start;
+    font-size: 2.2rem;
+    color: rgb(24, 3, 100);
+}
+
+
+.body {
+    padding: 3% 1%;
+    text-align: center;
+    font-size: 3rem;
+    font-style: italic;
+    color: rgb(13, 21, 41);
+    border-bottom: 1px solid black;
+}
+
+/* .button {
+    width: 20%;
+    border: 1px solid black;
+    padding: 2% 3%;
+    color: white;
+    background-color: blue;
+    margin: 1%;
+    text-align: center;
+} */
+/* #exampleModal {
+    display: none;
+} */
