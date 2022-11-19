@@ -1,43 +1,38 @@
-import data from "./data.js"
 
-function createElement(tag, text, className) { 
-    const el = document.createElement(tag);
-    el.textContent = text;
-    el.classList.add(className);
-    // el.onclick = click;
-    return el;
+const createComment = ({ id, email, body, name }) => { 
+    const elCard = document.createElement("div"),
+        elName = document.createElement("div"),
+        elEmail = document.createElement("div"),
+        elBody = document.createElement("div"),
+    btn = document.createElement("button");
 
+    elCard.className = "card-comment";
+
+    elCard.dataset.id = id;
+    elName.textContent = name;
+    elEmail.textContent = email;
+    elBody.textContent = body;
+    btn.textContent = "Редагувати"
+
+    elCard.append(elName, elEmail, elBody, btn);
+
+    btn.onclick = function () { 
+        document.querySelector(".modal").style.display = "flex";
+        document.querySelector(".modal > .name").innerHTML = name;
+        document.querySelector(".modal > .comment").innerHTML = body;
+        document.querySelector(".modal > .comment").setAttribute("contenteditable", "true");
+    }
+
+    return elCard;
 }
 
-const postId = createElement("div"),
-    id = createElement("div"),
-    name = createElement("div"),
-    email = createElement("div"),
-    body = createElement("div"),
-    btn = createElement("button");
-
-
-data.forEach((el) => { 
-    const {postId, id, name, email, body, btn} = el;
-    const arr = [createElement("div", `postId: ${postId}`, "postId"),
-    createElement("div", `id: ${id}`, "id"),
-    createElement("div", `name: ${name}`, "name"),
-    createElement("div", `email: ${email}`, "email"),
-    createElement("div", `body: ${body}`, "body"),
-    createElement("button", `${btn}`, "btn btn-primary"),
-    ];
-    
-    document.querySelector(".box").append(...arr);
-   
+const comments = data.map(el => { 
+    return createComment(el)
 })
 
-const butn = document.querySelector(".btn btn-primary");
-butn.onclick = function() {
-  div.modal-content.append(el.this);
+window.onload = () => { 
+    document.getElementById("comments").append(...comments);
+    document.querySelector(".close").onclick = function () { 
+        document.querySelector(".modal").style.display = "none"
+    }
 }
-
-// function click() { 
-// modal.style.display = "block";
-// }
-
-document.querySelector(".box").prepend(postId, id, name, email, body, btn);

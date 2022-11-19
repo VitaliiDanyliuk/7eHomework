@@ -350,5 +350,3 @@ const data = [
     "body": "eum accusamus aut delectus\narchitecto blanditiis quia sunt\nrerum harum sit quos quia aspernatur vel corrupti inventore\nanimi dicta vel corporis"
     }
 ]
-
-export default data;
