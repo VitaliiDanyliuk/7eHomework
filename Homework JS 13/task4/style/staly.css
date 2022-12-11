@@ -1,0 +1,14 @@
+        #help-text {
+            border: 3px solid black;
+            border-radius: 25px;
+            background: #d6e4b8;
+            line-height: 2;
+            padding: 4px;
+        }
+
+        .close {
+            font-size: 1.4rem;
+            font-weight: 20;
+            color: #b11a1a;
+            cursor: pointer;
+        }
