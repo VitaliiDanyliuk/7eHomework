@@ -1,0 +1,809 @@
+/* Homepage */
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  background-color: #ffffff;
+  font-style: normal;
+  color: #000000;
+}
+
+.header {
+  padding: 3.3rem 6rem 0 6rem;
+  max-width: 95%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 7rem;
+}
+
+.header-logo {
+  max-width: 25%;
+  display: flex;
+}
+
+.header-logo a {
+  position: relative;
+  max-width: 95%;
+}
+
+.header-logo-img {
+  max-width: 95%;
+}
+
+.burger-menu {
+  position: relative;
+}
+@media screen and (min-width: 992px) {
+  .burger-menu {
+    display: none;
+  }
+}
+
+.burger-menu-checkbox {
+  display: none;
+}
+.burger-menu-checkbox:checked ~ .menu-btn > span {
+  transform: rotate(45deg);
+}
+.burger-menu-checkbox:checked ~ .menu-btn > span::before {
+  top: 0;
+  transform: rotate(0deg);
+}
+.burger-menu-checkbox:checked ~ .menu-btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+.burger-menu-checkbox:checked ~ .menu-box {
+  right: 0;
+  top: 50px;
+  display: block;
+}
+.menu-btn {
+  display: flex;
+  align-items: center;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+
+.menu-btn span,
+.menu-btn span::before,
+.menu-btn span::after {
+  display: block;
+  position: absolute;
+  width: 26px;
+  height: 2px;
+  background: black;
+}
+
+.menu-btn span::before {
+  content: "";
+  top: -8px;
+}
+.menu-btn span::after {
+  content: "";
+  top: 8px;
+}
+
+.menu-box {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 50px;
+  list-style: none;
+  text-align: end;
+  transition: 0.5s;
+}
+
+.menu-item {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #001f3d;
+  text-decoration: none;
+  margin-bottom: 20px;
+  width: 10%;
+  transition: 0.5s;
+}
+
+.nav-main {
+  width: 45%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 992px) {
+  .nav-main {
+    display: none;
+  }
+}
+
+.nav-main a {
+  font-family: "Oswald";
+  font-size: 2rem;
+  color: #333333;
+  text-align: center;
+  text-decoration: none;
+  max-width: 20%;
+}
+
+.search {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #a04955;
+  border-radius: 15px;
+  max-width: 25%;
+  padding: 0.9rem 4rem 0.7rem 3.8rem;
+}
+
+.search-title {
+  font-family: "Oswald";
+  font-size: 1.5rem;
+  color: #787878;
+  text-align: center;
+  overflow: hidden;
+}
+
+.search-img {
+  margin-right: 1.1rem;
+}
+
+.shorts {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3.5% 6.4% 4.3%;
+  max-width: 100%;
+}
+
+.shorts-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.shorts-one-best {
+  font-family: "Oswald";
+  font-weight: bold;
+  font-size: 6.5rem;
+  color: #001f3d;
+  margin-bottom: 4%;
+  max-width: 100%;
+}
+
+.shorts-one-length {
+  font-weight: lighter;
+  font-size: 2.4rem;
+  margin-bottom: 8%;
+}
+
+.shorts-btn {
+  font-weight: lighter;
+  font-size: 2.4rem;
+  text-align: center;
+  max-width: 50%;
+  background-color: #ffffff;
+  height: 10%;
+  overflow: hidden;
+}
+
+.shorts-two img {
+  max-width: 100%;
+}
+
+.discount-now {
+  margin: 0;
+  background-color: #f1f1f1;
+}
+
+.discount-now-text {
+  font-family: "Oswald";
+  font-weight: lighter;
+  font-size: 3.6rem;
+  color: #333333;
+  text-align: center;
+}
+
+.discount-now-title {
+  font-family: "Oswald";
+  font-weight: bold;
+  font-size: 6.4rem;
+  color: #333333;
+  text-align: center;
+}
+
+.pants {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  padding: 6% 3.5% 6.4% 4.3%;
+  max-width: 100%;
+}
+
+.pants-img {
+  max-width: 50%;
+}
+
+.pants-img img {
+  max-width: 100%;
+}
+
+.pants-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 40%;
+}
+
+.pants-content-title {
+  font-family: "Oswald";
+  font-size: 6.5rem;
+  color: #001f3d;
+  margin-bottom: 4%;
+  overflow: hidden;
+}
+
+.pants-content-text {
+  font-weight: lighter;
+  font-size: 2.4rem;
+  margin-bottom: 8%;
+}
+
+.pants-btn {
+  font-weight: lighter;
+  font-size: 2.4rem;
+  text-align: center;
+  max-width: 40%;
+  background-color: #ffffff;
+  height: 10%;
+  overflow: hidden;
+}
+
+.shirt {
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: space-around;
+  padding: 10rem 15rem;
+}
+
+.shirt-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.shirt-one-img {
+  position: relative;
+  max-width: 100%;
+  margin: 0;
+}
+
+.shirt-one-img img {
+  max-width: 100%;
+}
+
+.shirt-one-title {
+  position: absolute;
+  background-color: #a04955;
+  font-family: "Oswald";
+  width: 100%;
+  height: 16%;
+  bottom: 0;
+  opacity: 80%;
+  overflow: hidden;
+  font-weight: 500;
+  font-size: 3.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fffafa;
+}
+
+.shirt-one-text {
+  font-weight: 300;
+  font-size: 2.4rem;
+  font-weight: 300;
+  max-width: 85%;
+  text-align: center;
+}
+
+.shirt-btn {
+  font-weight: 300;
+  height: 5rem;
+  font-size: 2.4rem;
+  font-weight: 300;
+  text-align: center;
+  max-width: 70%;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.sport-original-pant {
+  position: relative;
+  margin: 0 0 2% 0;
+  max-height: 10%;
+}
+
+.sport-original-pant img {
+  width: 100%;
+}
+
+.sport-original-pant-title {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  font-family: "Oswald";
+  font-size: 6.5rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.sport-original-pant-text {
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  font-size: 2.4rem;
+  font-weight: 300;
+  color: #ffffff;
+  max-width: 35%;
+}
+
+.sport-pant-btn {
+  position: absolute;
+  top: 75%;
+  left: 5%;
+  font-weight: 300;
+  height: 6rem;
+  max-height: 10%;
+  font-size: 2.4rem;
+  text-align: center;
+  width: 30%;
+  overflow: hidden;
+  color: #ffffff;
+  background-color: #a04955;
+}
+
+.sports-trend {
+  position: relative;
+  margin: 0 4%;
+  max-height: 6%;
+  max-width: 90%;
+}
+
+.sports-trend-title {
+  position: relative;
+  background-color: #a04955;
+  color: #ffffff;
+  width: 100%;
+  height: 34rem;
+  padding-top: 2%;
+  font-family: "Oswald";
+  font-size: 6.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+}
+
+.sports-trend-products {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 95%;
+  max-height: 50%;
+  margin-bottom: 25%;
+}
+
+.sports-trend-products-card-one,
+.sports-trend-products-card-two,
+.sports-trend-products-card-three {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  background-color: #ffffff;
+  width: 31rem;
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #a04955;
+  overflow: hidden;
+  margin-bottom: 9rem;
+}
+
+.sports-trend-products-card-two {
+  left: 40%;
+}
+
+.sports-trend-products-card-three {
+  left: 70%;
+}
+.sports-trend-products-card img {
+  width: 100%;
+}
+
+.sports-trend-products-card-title {
+  font-family: "Oswald";
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #333333;
+  text-align: center;
+}
+
+.sports-trend-products-card-btn {
+  background-color: #a04955;
+  font-weight: 300;
+  font-size: 1.8rem;
+  text-align: center;
+  overflow: hidden;
+  color: #ffffff;
+  height: 4rem;
+}
+
+.fifty-years {
+  position: relative;
+}
+.fifty-years-content {
+  background-color: #f3f3f3;
+  margin: 0 11rem 4rem 11rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: 9%;
+  padding-bottom: 2%;
+}
+
+.fifty-years-title {
+  font-family: "Oswald";
+  font-size: 6.5rem;
+  font-weight: 700;
+  color: #001f3d;
+  text-align: center;
+}
+
+.fifty-years-text {
+  font-size: 2.4rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.fifty-years-btn {
+  font-size: 2.4rem;
+  font-weight: 300;
+  text-align: center;
+  overflow: hidden;
+  align-self: center;
+  background-color: #f3f3f3;
+  height: 5rem;
+  width: 15%;
+}
+
+.fifty-years-img-one {
+  position: absolute;
+  top: -30%;
+  left: 40%;
+}
+
+.fifty-years-img-two {
+  position: absolute;
+  top: 85%;
+  left: 87%;
+}
+
+.footer {
+  font-family: "Oswald";
+  background-color: #a04955;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1% 2%;
+  margin-bottom: 1rem;
+}
+
+.footer-box-title {
+  font-weight: 600;
+  font-size: 2.4rem;
+  color: #ffffff;
+}
+
+.footer-box-one a,
+.footer-box-two a,
+.footer-box-three a,
+.footer-box-four div {
+  font-weight: 400;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #ffffff;
+  margin-bottom: 8%;
+}
+
+.footer-box-one,
+.footer-box-two,
+.footer-box-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+footer:last-child {
+  max-width: 40%;
+}
+
+.form-footer {
+  background-color: #ffffff;
+  padding: 2% 1% 2% 4%;
+  max-width: 80%;
+  justify-content: space-between;
+}
+
+.form-footer input:nth-of-type(1) {
+  color: #a04955;
+  margin-right: 30%;
+  border: 0;
+}
+
+.form-footer input:last-child {
+  height: 5rem;
+  width: 32%;
+  background-color: #a04955;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+.last-div {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0 0 1% 5%;
+}
+
+@media screen and (max-width: 992px) {
+  .shorts-one-best {
+    font-size: 3.2rem;
+  }
+  .shorts-one-length {
+    font-size: 1.4rem;
+  }
+  .shorts-btn {
+    font-size: 1.4rem;
+    height: 20%;
+  }
+  .discount-now-text {
+    font-size: 1.8rem;
+  }
+  .discount-now-title {
+    font-size: 3.2rem;
+  }
+  .pants-content-title {
+    font-size: 3.2rem;
+  }
+  .pants-content-text {
+    font-size: 1.4rem;
+  }
+  .pants-btn {
+    font-size: 1.4rem;
+    height: 20%;
+  }
+  .shirt-one-title {
+    font-size: 1.6rem;
+    height: 35%;
+  }
+  .shirt-one-text {
+    font-size: 1.4rem;
+  }
+  .shirt-btn {
+    font-size: 1.4rem;
+    height: 20%;
+  }
+  .sport-original-pant-title {
+    font-size: 3.2rem;
+  }
+
+  .sport-original-pant-text {
+    font-size: 1.4rem;
+  }
+  .sport-pant-btn {
+    font-size: 1.4rem;
+    height: 20%;
+    top: 88%;
+  }
+  .sports-trend-title {
+    height: 5rem;
+    font-size: 3.2rem;
+  }
+  .sports-trend-products-card-title {
+    font-size: 1.4rem;
+  }
+
+  .sports-trend-products-card-btn {
+    font-size: 1.4rem;
+  }
+  .fifty-years-title {
+    font-size: 3.2rem;
+  }
+
+  .fifty-years-text {
+    font-size: 1.4rem;
+  }
+
+  .fifty-years-img-one {
+    max-width: 75%;
+    max-height: 75%;
+    top: -50%;
+    left: 42%;
+  }
+  .fifty-years-img-two {
+    left: 80%;
+  }
+
+  .sports-trend-products-card-one,
+  .sports-trend-products-card-two,
+  .sports-trend-products-card-three {
+    position: static;
+  }
+
+  .fifty-years-btn {
+    font-size: 1.4rem;
+    height: 20%;
+  }
+  .footer-box-title {
+    font-size: 1.4rem;
+  }
+
+  .footer-box-one a,
+  .footer-box-two a,
+  .footer-box-three a,
+  .footer-box-four div {
+    font-size: 1.2rem;
+  }
+}
+
+/* Catalog-Page */
+
+.header-div {
+  display: flex;
+}
+
+.header-div-box {
+  display: flex;
+  width: 14%;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 2.4rem;
+  margin-right: 5%;
+  margin-left: 6rem;
+}
+.header-div-box div > img {
+  width: 100%;
+}
+.header-div-box div:nth-of-type(1) {
+  font-weight: 400;
+}
+
+.header-div-search {
+  width: 70%;
+}
+
+.header-div-search-title {
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 6.4rem;
+  color: #c4c4c4;
+}
+
+.main {
+  padding: 2rem 6rem;
+  background-color: #f1f1f1;
+  height: 70%;
+}
+
+.aside {
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  background-color: #ffffff;
+}
+
+.size,
+.color {
+  margin-bottom: 2rem;
+}
+.size-title,
+.color-title,
+.bottoms-title,
+.inseam-title,
+.sustainable-title,
+.collections-title {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Oswald";
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+}
+
+.aside hr {
+  color: #a04955;
+  height: 1px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.size-btn > button,
+.color-btn > button {
+  width: 4rem;
+  height: 4rem;
+  font-size: 2rem;
+  font-family: "Oswald";
+  font-weight: 300;
+  background-color: #f1f1f1;
+  overflow: hidden;
+  text-align: center;
+  margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.color-btn > button:nth-of-type(1) {
+  background-color: #000000;
+}
+.color-btn > button:nth-of-type(2) {
+  background-color: #744524;
+}
+.color-btn > button:nth-of-type(3) {
+  background-color: #113eb1;
+}
+.color-btn > button:nth-of-type(4) {
+  background-color: #549554;
+}
+.color-btn > button:nth-of-type(5) {
+  background-color: #808080;
+}
+.color-btn > button:nth-of-type(6) {
+  background-color: #e59500;
+}
+.color-btn > button:nth-of-type(7) {
+  background-color: #ffffff;
+  border: 1px solid #bcbccc;
+}
+
+ul {
+  list-style-image: url(../image/Rectangle52.png);
+}
+ul li {
+  font-size: 2rem;
+  font-family: "Oswald";
+  font-weight: 300;
+}
+
+.minor-section {
+  position: relative;
+  display: flex;
+  justify-content: end;
+}
+
+.minor-section-img {
+  position: absolute;
+  bottom: 130%;
+  right: 5%;
+}
+
+.buttons > button {
+  font-size: 2rem;
+  font-family: "Oswald";
+  font-weight: 400;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 1px solid #a04955;
+  color: #a04955;
+  background-color: #f1f1f1;
+  margin-right: 1.5rem;
+  align-items: center;
+}

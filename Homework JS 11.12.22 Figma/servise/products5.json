@@ -1,0 +1,92 @@
+[
+ {
+        "id": 1041,
+        "image": "41",
+        "name": "Inlet Original Pant",
+        "img": "Group59",
+        "price": "$70",
+        "size": 44,
+        "color": "green"
+    },
+    {
+        "id": 1042,
+        "image": "42",
+        "name": "TGIF Pant",
+        "img": "Group59",
+        "price": "$95",
+        "size": 46,
+        "color": "green"
+    },
+    {
+        "id": 1043,
+        "image": "43",
+        "name": "Original Pant",
+        "img": "Group59",
+        "price": "$90",
+        "size": 30,
+        "color": "gray"
+    },
+    {
+        "id": 1044,
+        "image": "44",
+        "name": "Inlet Original Pant",
+        "img": "Group59",
+        "price": "$75",
+        "size": 32,
+        "color": "gray"
+    },
+    {
+        "id": 1045,
+        "image": "45",
+        "name": "TGIF Pant",
+        "img": "Group59",
+        "price": "$85",
+        "size": 34,
+        "color": "yellow"
+    },
+    {
+        "id": 1046,
+        "image": "46",
+        "name": "Original Pant",
+        "img": "Group59",
+        "price": "$70",
+        "size": 36,
+        "color": "yellow"
+    },
+    {
+        "id": 1047,
+        "image": "47",
+        "name": "Inlet Original Pant",
+        "img": "Group59",
+        "price": "$80",
+        "size": 38,
+        "color": "white"
+    },
+    {
+        "id": 1048,
+        "image": "48",
+        "name": "TGIF Pant",
+        "img": "Group59",
+        "price": "$85",
+        "size": 40,
+        "color": "white"
+    },
+    {
+        "id": 1049,
+        "image": "49",
+        "name": "Original Pant",
+        "img": "Group59",
+        "price": "$65",
+        "size": 42,
+        "color": "white"
+    },
+    {
+        "id": 1050,
+        "image": "50",
+        "name": "Inlet Original Pant",
+        "img": "Group59",
+        "price": "$80",
+        "size": 44,
+        "color": "white"
+    }
+]

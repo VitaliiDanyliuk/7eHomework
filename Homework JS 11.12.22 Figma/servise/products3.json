@@ -1,0 +1,93 @@
+[
+ {
+        "id": 1021,
+        "image": "21",
+        "name": "Ecoths Ashcroft Short",
+        "img": "Group59",
+        "price": "$40",
+        "size": 42,
+        "color": "yellow"
+    },
+    {
+        "id": 1022,
+        "image": "22",
+        "name": "Ecoths Ashcroft Short",
+        "img": "Group59",
+        "price": "$50",
+        "size": 44,
+        "color": "yellow"
+    },
+    {
+        "id": 1023,
+        "image": "23",
+        "name": "Ecoths Gannon Short",
+        "img": "Group59",
+        "price": "$45",
+        "size": 46,
+        "color": "yellow"
+    },
+    {
+        "id": 1024,
+        "image": "24",
+        "name": "Ecoths Ashcroft Short",
+        "img": "Group59",
+        "price": "$40",
+        "size": 30,
+        "color": "yellow"
+    },
+    {
+        "id": 1025,
+        "image": "25",
+        "name": "Ecoths Gannon Short",
+        "img": "Group59",
+        "price": "$50",
+        "size": 30,
+        "color": "yellow"
+    },
+    {
+        "id": 1026,
+        "image": "26",
+        "name": "TGIF Pant",
+        "img": "Group59",
+        "price": "$95",
+        "size": 32,
+        "color": "white"
+    },
+    {
+        "id": 1027,
+        "image": "27",
+        "name": "Inlet Original Pant",
+        "img": "Group59",
+        "price": "$90",
+        "size": 34,
+        "color": "brown"
+    },
+    {
+        "id": 1028,
+        "image": "28",
+        "name": "TGIF Pant",
+        "img": "Group59",
+        "price": "$80",
+        "size": 36,
+        "color": "black"
+    },
+    {
+        "id": 1029,
+        "image": "29",
+        "name": "Inlet Original Pant",
+        "img": "Group59",
+        "price": "$80",
+        "size": 38,
+        "color": "black"
+    },
+    {
+        "id": 1030,
+        "image": "30",
+        "name": "TGIF Pant",
+        "img": "Group59",
+        "price": "$75",
+        "size": 40,
+        "color": "black"
+    }
+   
+]

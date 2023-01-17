@@ -1,0 +1,93 @@
+[
+{
+        "id": 1001,
+        "image": "1",
+        "name": "Sportif's Original Short",
+        "img": "Group59",
+        "price": "$50",
+        "size": 38,
+        "color": "gray"
+       
+    },
+    {
+        "id": 1002,
+        "image": "2",
+        "name": "Sportif's Original Short",
+        "img": "Group59",
+        "price": "$35",
+        "size": 40,
+        "color": "blue"
+    },
+    {
+        "id": 1003,
+        "image": "3",
+        "name": "Sportif's Hatteras Short",
+        "img": "Group59",
+        "price": "$30",
+        "size": 42,
+        "color": "black"
+    },
+    {
+        "id": 1004,
+        "image": "4",
+        "name": "Sportif's Original Short",
+        "img": "Group59",
+        "price": "$35",
+        "size": 34,
+        "color": "brown"
+    },
+    {
+        "id": 1005,
+        "image": "5",
+        "name": "Sportif's Hatteras Short",
+        "img": "Group59",
+        "price": "$30",
+        "size": 42,
+        "color": "blue"
+    },
+    {
+        "id": 1006,
+        "image": "6",
+        "name": "Sportif's Original Short",
+        "img": "Group59",
+        "price": "$40",
+        "size": 30,
+        "color": "white"
+    },
+    {
+        "id": 1007,
+        "image": "7",
+        "name": "Sportif's Hatteras Short",
+        "img": "Group59",
+        "price": "$55",
+        "size": 32,
+        "color": "white"
+    },
+    {
+        "id": 1008,
+        "image": "8",
+        "name": "Sportif's Original Short",
+        "img": "Group59",
+        "price": "$40",
+        "size": 34,
+        "color": "blue"
+    },
+    {
+        "id": 1009,
+        "image": "9",
+        "name": "Sportif's Hatteras Short",
+        "img": "Group59",
+        "price": "$60",
+        "size": 36,
+        "color": "white"
+    },
+    {
+        "id": 1010,
+        "image": "10",
+        "name": "Sportif's Hatteras Short",
+        "img": "Group59",
+        "price": "$70",
+        "size": 38,
+        "color": "blue"
+    }
+ ]
