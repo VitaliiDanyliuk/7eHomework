@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav</title>
+    <link rel="stylesheet" href="./style/loader.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="navigation">
+                <li class="navigation__item" id="nbu">НБУ</li>
+                <li class="navigation__item" id="starwars">Герої зоряний війн</li>
+                <li class="navigation__item" id="todo">Список справ</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="display">
+        </div>
+    </section>
+    <footer></footer>
+    <div class="loader">
+        <div class="lds-hourglass"></div>
+    </div>
+    <div class="parent">
+        <div class="modal">
+            <h2>Редагування задачі</h2>
+            <div>Опис задачі : <span id="description"></span></div>
+            <div>Статус задачі: <input type="checkbox" name="" id="status"></div>
+            <div>
+                <button id="save">Зберегти</button>
+                <button id="close">Відхилити</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./code/index.js" type="module"></script>
+</body>
+
+</html>
