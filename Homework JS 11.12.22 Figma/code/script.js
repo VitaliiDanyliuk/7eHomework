@@ -38,6 +38,8 @@ function showRandom(data) {
                 productBox.append(productBoxId);
                 let divProductImage = createDiv("products-image")
                 productBox.append(divProductImage);
+
+// Навішуємо клік на картинку для відкриття картки товару з детальною інформацією про товар
                 divProductImage.addEventListener("click", e => {
                         localStorage.card = JSON.stringify(obj);
                         document.location = "/product-page"
@@ -62,6 +64,8 @@ function showRandom(data) {
                 divProductColor.append(productColorImg);
                 let divProductBtn = createBtn("products-button");
                 productBox.append(divProductBtn);
+
+// Навішуємо клік на кнопку додавання товару в корзину
                 divProductBtn.addEventListener("click", e => {
                         if (!localStorage.basket) {
                                 localStorage.basket = JSON.stringify([obj]);

@@ -38,7 +38,9 @@ function showBasket() {
         let divProductBtn = createBtn("products-button");
         productBox.append(divProductBtn);
         let productButtonImg = createImg(`../image/imagesdel.png`, `корзина`);      
-        divProductBtn.append(productButtonImg);
+            divProductBtn.append(productButtonImg);
+            
+            // Навішуємо клік на кнопку видалення товару з корзини
             divProductBtn.addEventListener("click", e => {
                 let value = Object.values(obj);
                 let valueId = value[0];
