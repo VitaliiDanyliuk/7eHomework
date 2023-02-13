@@ -1,4 +1,3 @@
-/* Homepage */
 
 html {
   font-size: 10px;
@@ -139,7 +138,7 @@ body {
   border: 1px solid #a04955;
   border-radius: 15px;
   max-width: 25%;
-  padding: 0.9rem 4rem 0.7rem 3.8rem;
+  padding: 0.9rem 2rem 0.7rem 3.8rem;
 }
 
 .search-title {
@@ -148,8 +147,13 @@ body {
   color: #787878;
   text-align: center;
   overflow: hidden;
+  width: 90%;
 }
 
+.search-title input{
+  width: 90%;
+  border: 0;
+}
 .search-img {
   margin-right: 1.1rem;
 }
@@ -180,11 +184,21 @@ body {
   width: 70%;
 }
 
-.header-div-search-title {
+.header-div-search-title{
   font-family: "Oswald";
   font-weight: 500;
   font-size: 6.4rem;
   color: #c4c4c4;
+  border: 0;
+  width: 100%;
+}
+.header-div-search-title input{
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 6.4rem;
+  color: black;
+  border: 0;
+  width: 100%;
 }
 
 .main {
@@ -198,7 +212,7 @@ body {
   justify-content: space-around;
 }
 aside {
-  width: 18%;
+  width: 20%;
 }
 .aside {
   display: flex;
@@ -233,39 +247,50 @@ aside {
   margin-bottom: 2rem;
 }
 
-.size-btn > button,
-.color-btn > button {
+
+.size-btn,
+.color-btn{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+
+.size-btn > li,
+.color-btn > li {
   width: 4rem;
   height: 4rem;
   font-size: 2rem;
   font-family: "Oswald";
   font-weight: 300;
-  background-color: #f1f1f1;
+  background-color: #bbb9b9;
   overflow: hidden;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: 1.5rem;
   margin-bottom: 1.5rem;
 }
 
-.color-btn > button:nth-of-type(1) {
+.color-btn > li:nth-of-type(1) {
   background-color: #000000;
 }
-.color-btn > button:nth-of-type(2) {
+.color-btn > li:nth-of-type(2) {
   background-color: #744524;
 }
-.color-btn > button:nth-of-type(3) {
+.color-btn > li:nth-of-type(3) {
   background-color: #113eb1;
 }
-.color-btn > button:nth-of-type(4) {
+.color-btn > li:nth-of-type(4) {
   background-color: #549554;
 }
-.color-btn > button:nth-of-type(5) {
+.color-btn > li:nth-of-type(5) {
   background-color: #808080;
 }
-.color-btn > button:nth-of-type(6) {
+.color-btn > li:nth-of-type(6) {
   background-color: #e59500;
 }
-.color-btn > button:nth-of-type(7) {
+.color-btn > li:nth-of-type(7) {
   background-color: #ffffff;
   border: 1px solid #bcbccc;
 }
@@ -295,7 +320,16 @@ aside {
   justify-content: center;
   align-items: center;
   padding: 1%;
+  transition: all 0.4s;
+  
 }
+.products-box:hover{
+transform: scale(1.05);
+}
+.products-button:hover{
+transform: scale(1.1);
+}
+
 .products-image img {
   width: 100%;
   margin-bottom: 4px;
@@ -327,7 +361,14 @@ aside {
 .products-color img {
   width: 50%;
 }
-
+.size-button:hover{
+  transform: scale(1.15);
+  transition: all 0.4s;
+}
+.color-button:hover{
+  transform: scale(1.1);
+  transition: all 0.4s;
+}
 .minor-section {
   position: relative;
   display: flex;
@@ -354,7 +395,7 @@ aside {
   height: 3.5rem;
   border: 1px solid #a04955;
   color: #a04955;
-  background-color: #f1f1f1;
+  background-color: #dad5d5;
   margin-right: 1.5rem;
   display: flex;
   justify-content: center;
@@ -477,4 +518,66 @@ footer:last-child {
   font-size: 1.4rem;
   color: rgba(0, 0, 0, 0.5);
   margin: 0 0 1% 5%;
+}
+.basket{
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+ position: relative;
+ 
+}
+.basket > img{
+  max-width: 10%;
+  max-height: 10%;
+  border: 2px solid rgb(40, 199, 79);
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  opacity: 0.7;
+  z-index: 10;
+}
+
+.basket > img:hover{
+  transition: all .5s;
+  transform: scale(1.05);
+}
+
+.basket-span{
+ justify-content: center;
+ align-items: center;
+  position: fixed;
+  top: 1.8rem;
+  right: 2rem;
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: aqua;
+  border-radius: 100%;
+  opacity: .95;
+  color: #000000;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-align: center;
+
+}
+
+.del-size-filter,
+.del-color-filter{
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 1.6rem;
+  padding: 1%;
+  margin-left: 13%;
+  width: 13rem;
+  height: 3rem;
+background-color: #9dc79d;
+
+
+}
+
+.del-size-filter:hover,
+.del-color-filter:hover{
+    transition: all .2s;
+  transform: scale(1.05);
 }

@@ -89,7 +89,7 @@
         "price": "$70",
         "size": 38,
         "color": "blue"
-    } 
+    }, 
     {
         "id": 1011,
         "image": "11",
@@ -179,7 +179,7 @@
         "price": "$50",
         "size": 40,
         "color": "green"
-    }
+    },
      {
         "id": 1021,
         "image": "21",
@@ -269,7 +269,7 @@
         "price": "$75",
         "size": 40,
         "color": "black"
-    }
+    },
     {
         "id": 1031,
         "image": "31",
@@ -359,7 +359,7 @@
         "price": "$75",
         "size": 42,
         "color": "blue"
-    }
+    },
      {
         "id": 1041,
         "image": "41",

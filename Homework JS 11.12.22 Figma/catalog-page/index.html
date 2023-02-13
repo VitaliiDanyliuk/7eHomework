@@ -19,7 +19,7 @@
     <header>
         <div class="header">
             <div class="header-logo">
-                <a href="../homepage/index.html"><img class="header-logo-img" src="../image/image2.png"
+                <a href="../index.html"><img class="header-logo-img" src="../image/image2.png"
                         alt="логотип"></a>
 
                 <div class="burger-menu">
@@ -45,9 +45,12 @@
             </div>
             <div class="search">
                 <img class="search-img" src="../image/Vector.png" alt="пошук">
-                <div class="search-title">SEARCH ENTIRE STORE HERE</div>
+                <div class="search-title"><input type="text" placeholder="SEARCH ENTIRE STORE HERE"></div>
             </div>
-
+            <div class="basket">
+                <img src="../image/basket.png" alt="корзинка">
+                <span class="basket-span">0</span>
+            </div>
         </div>
         <div class="header-div">
             <div class="header-div-box">
@@ -59,7 +62,7 @@
                 <div>SHORTS</div>
             </div>
             <div class="header-div-search">
-                <div class="header-div-search-title">SEARCH</div>
+                <div class="header-div-search-title"><input type="text" placeholder="SEARCH"></div>
                 <hr class="header-div-search-line">
             </div>
 
@@ -67,6 +70,7 @@
     </header>
 
     <main>
+        <div class="test"></div>
         <div class="main">
             <section class="main-section">
                 <aside>
@@ -77,17 +81,18 @@
                                 <div>SIZE</div>
                                 <div><img src="../image/rightarrow4.png" alt="стрілка вгору"></div>
                             </div>
-                            <div class="size-btn">
-                                <button>30</button>
-                                <button>32</button>
-                                <button>34</button>
-                                <button>36</button>
-                                <button>38</button>
-                                <button>40</button>
-                                <button>42</button>
-                                <button>44</button>
-                                <button>46</button>
-                            </div>
+                            <ul class="size-btn">
+                                <li class="size-button" data-filter = "30">30</li>
+                                <li class="size-button" data-filter = "32">32</li>
+                                <li class="size-button" data-filter = "34">34</li>
+                                <li class="size-button" data-filter = "36">36</li>
+                                <li class="size-button" data-filter = "38">38</li>
+                                <li class="size-button" data-filter = "40">40</li>
+                                <li class="size-button" data-filter = "42">42</li>
+                                <li class="size-button" data-filter = "44">44</li>
+                                <li class="size-button" data-filter = "46">46</li>
+                            </ul>
+                            <button class="del-size-filter">Очистити фільтр</button>
                         </div>
                         <hr>
                         <div class="color">
@@ -95,15 +100,16 @@
                                 <div>COLOR</div>
                                 <div><img src="../image/rightarrow4.png" alt="стрілка вгору"></div>
                             </div>
-                            <div class="color-btn">
-                                <button></button>
-                                <button></button>
-                                <button></button>
-                                <button></button>
-                                <button></button>
-                                <button></button>
-                                <button></button>
-                            </div>
+                            <ul class="color-btn">
+                                <li class="color-button" data-filter ="black"></li>
+                                <li class="color-button" data-filter ="brown"></li>
+                                <li class="color-button" data-filter ="blue"></li>
+                                <li class="color-button" data-filter ="green"></li>
+                                <li class="color-button" data-filter ="gray"></li>
+                                <li class="color-button" data-filter ="yellow"></li>
+                                <li class="color-button" data-filter ="white"></li>
+                            </ul>
+                            <button class="del-color-filter">Очистити фільтр</button>
                         </div>
                         <hr>
                         <div class="aside-bottoms">
@@ -211,7 +217,9 @@
 
     </footer>
     <div class="last-div"></div>
-    <script src="../code/script.js" type="module"></script>
+    <script src="./code/catalogpage.js" type="module"></script>
+    
+
 </body>
 
 </html>

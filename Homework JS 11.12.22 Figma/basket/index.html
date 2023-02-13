@@ -19,7 +19,7 @@
     <header>
         <div class="header">
             <div class="header-logo">
-                <a href="#"><img class="header-logo-img" src="../image/image2.png" alt="логотип"></a>
+                <a href="/"><img class="header-logo-img" src="../image/image2.png" alt="логотип"></a>
 
                 <div class="burger-menu">
                     <input type="checkbox" id="menu-toggle" class="burger-menu-checkbox">
@@ -27,7 +27,7 @@
                         <span></span>
                     </label>
                     <ul class="menu-box">
-                        <li><a href="#" class="menu-item">SHORTS</a></li>
+                        <li><a href="../catalog-page/index.html" class="menu-item">SHORTS</a></li>
                         <li><a href="#" class="menu-item">PANTS</a></li>
                         <li><a href="#" class="menu-item">SHIRTS</a></li>
                         <li><a href="#" class="menu-item">ACCESSORIES</a></li>
@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div class="nav-main">
-                <a class="header-title" href="#">SHORTS</a>
+                <a class="header-title" href="../catalog-page/index.html">SHORTS</a>
                 <a class="header-title" href="#">PANTS</a>
                 <a class="header-title" href="#">SHIRTS</a>
                 <a class="header-title" href="#">ACCESSORIES</a>
@@ -44,17 +44,22 @@
             </div>
             <div class="search">
                 <img class="search-img" src="../image/Vector.png" alt="пошук">
-                <div class="search-title">SEARCH ENTIRE STORE HERE</div>
+                <div class="search-title"><input type="text" placeholder="SEARCH ENTIRE STORE HERE"></div>
             </div>
-
+            <div class="basket">
+                <img src="../image/basket.png" alt="корзинка">
+                <span class="basket-span">0</span>
+               
+            </div>
         </div>
 
     </header>
 
     <main>
-        <div>
+        <div class="product-basket">
 
         </div>
+        <div class="full-price"></div>
     </main>
 
     <footer>
@@ -109,7 +114,8 @@
 
     </footer>
     <div class="last-div"></div>
-    <script src="../code/script.js" type="module"></script>
+    
+    <script src="./code/basket.js" type="module"></script>
 </body>
 
 </html>
