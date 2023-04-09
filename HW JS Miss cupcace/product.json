@@ -1,0 +1,91 @@
+[
+    {
+        "image": "1",
+        "name": "Carrot",
+        "description": "Walnut-studded carrot cake with cinnamon cream cheese frosting",
+        "price": "$3.40",
+        "count": 0
+        
+    },
+        {
+        "image": "2",
+        "name": "Red Velvet",
+        "description": "A chocolate sponge, coloured naturally with beetroot and topped off with cream cheese.",
+        "price": "$3.50",
+        "count": 0
+        
+    },
+        {
+        "image": "3",
+        "name": "Mint Chip",
+        "description": "Homemade chocolate cupcakes topped with thick & creamy mint chocolate chip frosting.",
+        "price": "$3.20",
+        "count": 0
+        
+    },
+        {
+        "image": "4",
+        "name": "Pink strawberry",
+        "description": "A fluffy strawberry cupcake with strawberry buttercream frosting and chocolate syrup.",
+        "price": "$3.10",
+        "count": 0
+        
+    },
+        {
+        "image": "5",
+        "name": "Marshmallow",
+        "description": "A super chocolatey cupcake base with a soft marshmallowy buttercream topping.",
+        "price": "$3.35",
+        "count": 0
+        
+    },
+        {
+        "image": "6",
+        "name": "Dark Chocolate",
+        "description": "Belgian chocolate cake with sweet chocolate frosting and cheery.",
+        "price": "$3.70",
+        "count": 0
+        
+    },
+        {
+        "image": "7",
+        "name": "Salty Caramel",
+        "description": "Caramel cake with a buttery caramel cream cheese frosting topped with fleur de sel.",
+        "price": "$3.15",
+        "count": 0
+        
+    },
+        {
+        "image": "8",
+        "name": "Gluten Free Velvet",
+        "description": "A gluten free twist on our classic red velvet, topped off with cream cheese.",
+        "price": "$3.45",
+        "count": 0
+        
+    },
+        {
+        "image": "9",
+        "name": "Cinnamon",
+        "description": "Lightly spiced buttermilk cake with cinnamon cream cheese frosting with cinnamon sugar.",
+        "price": "$3.60",
+        "count": 0
+        
+    },
+        {
+        "image": "10",
+        "name": "Totally nuts",
+        "description": "A sweet hazelnut paste with nutella butter cream and chopped hazelnuts on the top.",
+        "price": "$3.55",
+        "count": 0
+        
+    },
+        {
+        "image": "11",
+        "name": "Pink Vanilla",
+        "description": "Soft, fluffy, and extra moist creamy vanilla buttercream with extra sprinkles",
+        "price": "$3.75",
+        "count": 0
+        
+    }
+    
+]
